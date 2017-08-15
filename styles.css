@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Geneva, Arial, sans-serif;
+    background-color: #00838F
+}
+.trans_liquid
+{
+    transition: all 700ms cubic-bezier(0.525, -0.580, 0.790, 1.420);
+}
+#chatZone
+{
+    width: 60%;
+    height: 600px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+#field
+{
+    padding: 1%;
+    width: 100%;
+    height: 95%;
+    overflow-y: scroll;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+#chatZone input
+{
+    width: 90%;
+    height: 5%
+}
+#chatZone button
+{
+    width: 10%;
+    height: 5%;
+}
+.message
+{
+    text-align: left;
+}
+.saibot
+{
+    width: 100%;
+    height: 5%;
+}
+.center
+{
+    margin: auto;
+    text-align: center;
+}
+script a{
+    text-align: left;
+}
+
+video
+{
+    width: 100%;
+    border: 1px solid black;
+}
+.Sybot
+{
+    color: #d32f2f;
+    border-radius: 5%;
+
+}
+span {
+    font-weight: bold;
+}
+.User
+{
+    color: #283593;
+}
+.play
+{
+    display: block;
+}
+h1
+{
+    color: white;
+}

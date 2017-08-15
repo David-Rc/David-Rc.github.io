@@ -1,0 +1,67 @@
+{
+  "greet": ["Salut ", " je suis content de te voir içi"],
+  "message": [
+    {
+      "pre": "Je m’appelle Sybot, je suis une intelligence artificielle qui a pour mission de t’aider à réussir ton bac.",
+      "end": "Chaque semaine, je vais te proposer une vidéo et 3 questions sur un sujet d’économie de ton programme."
+    }
+  ],
+  "question": [
+    {
+      "one": "Tu est disponible ?(Oui/Non)",
+      "no": "Ok je reviens vers toi plus tard."
+    },
+    {
+      "two": "Cool ! Aujourd'hui, on va parler de la création monétaire. ça te convient ?(Oui/Non)",
+      "yes" : "Ok, c’est parti ! Pour démarrer tes révisions, nous te proposons de visionner cette vidéo de",
+      "no": "Tant pis, on te proposera un prochain sujet la semaine prochaine."
+    },
+    {
+      "pre": "J’espère que tu as bien compris la vidéo !",
+      "end": "On passe au quiz de validation de tes connaissances (1) ou bien tu veux d’autres informations sur le sujet (2) ?",
+      "yes": "Cool ! Bonne chance ! "
+    },
+    {
+      "pre": "Ok, voici des ressources qui t’aideront à mieux comprendre le sujet :",
+      "end": "Grâce à ces nouveaux éléments, j’espère que tu te sens prêt à démarrer le questionnaire de validation de connaissances : ",
+      "ressources": ["https://www.youtube.com/watch?v=o2u7Xa57y8A", "http://dessinemoileco.com/wp-content/uploads/2012/04/La-cr%C3%A9ation-mon%C3%A9taire-un-juste-%C3%A9quilibre.pdf", "http://www.lafinancepourtous.com/Decryptages/Dossiers/Creation-monetaire/La-creation-monetaire-comment-ca-marche"]
+    },
+    {
+      "pre": ["Bravo ! Grâce à Dessine-moi l’éco, tu as acquis",  "des connaissances sur le sujet”. "],
+      "lose": ["Mince, tu n'as pas bien répondu au questionnaire.. veux tu revoir la video ?"],
+      "end": "Merci de ta participation ! On se retrouve la semaine prochaine pour explorer un nouveau sujet. "
+    }
+  ],
+  "default": ["Je suis désolé mais je n'est pas compris ta réponse... Veux tu continuer ?"],
+  "exercice": [
+    {
+        "question": "Voici la première question : “Qu’est ce qui est à l’origine de la création monétaire ?”(A/B/C)",
+        "a": "A) “Les demandes de crédit des particuliers ou des entreprises”",
+        "b": "B) “L’augmentation des salaires”",
+        "c": "C) “Les retraits bancaires”",
+        "true": "“Bravo ! La bonne réponse était la A. En effet, à l’origine du processus de création monétaire, il y a un particulier ou une entreprise qui souhaite emprunter de l’argent pour réaliser un projet mais qui n’a pas les ressources financières pour le faire. On passe à la question suivante ! ",
+        "false": "“Aïe ! Non ce n’est pas tout à fait ça ! La bonne réponse était la A. En effet, à l’origine du processus de création monétaire, il y a un particulier ou une entreprise qui souhaite emprunter de l’argent pour réaliser un projet mais qui n’a pas les ressources financières pour le faire."
+    },
+    {
+      "question": "2eme question : “Que signifie concrètement créer de la monnaie pour un banquier ?”(A/B)",
+      "a": "A) “Fabriquer des billets et des pièces”",
+      "b": "B) “Accorder un prêt sans avoir les montants correspondants en ressources”",
+      "true": "Bravo ! La bonne réponse était la B. En effet, la création monétaire ne désigne pas le fait fabriquer des billets mais plutôt à injecter de la monnaie dans l’économie en accordant des prêts. On passe à la question suivante ! ",
+      "false": "Aïe ! Non ce n’est pas tout à fait ça ! La bonne réponse était la B. En effet, la création monétaire ne désigne pas le fait fabriquer des billets mais plutôt à injecter de la monnaie dans l’économie en accordant des prêts."
+    },
+    {
+      "question": "Voici la question : “Qu’est ce que l’inflation ?(A/B/C)",
+      "a": "A) “Une baisse générale des prix ”",
+      "b": "B) “Une hausse générale des prix ”",
+      "c": "C) “Une hausse des salaires”",
+      "true": "Bravo ! La bonne réponse était la B. En effet, lorsque les banques créent de la monnaie en accordant des prêts, les ménages peuvent plus facilement réaliser des achats de marchandises et cela entraîne naturellement une hausse générale des prix que l’on appelle inflation.",
+      "false": "Aïe ! Non ce n’est pas tout à fait ça ! La bonne réponse était la B. En effet, lorsque les banques créent de la monnaie en accordant des prêts, les ménages peuvent plus facilement réaliser des achats de marchandises et cela entraîne naturellement une hausse générale des prix que l’on appelle inflation. "
+    },
+    {
+      "question": "Qu’as-tu pensé de cette activité ?(A/B/C)",
+      "a": "A) Trés utile",
+      "b": "B) Mouais bof",
+      "c": "C) ça ne sert à rien"
+    }
+  ]
+}
