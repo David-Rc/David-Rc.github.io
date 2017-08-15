@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo3</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+    
+    <div id="header">
+      <ul id="nav">
+        <li><h3>David RICHARD</h3></li>
+        <li><a href="../">Retour</a></li>  
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    
+    <a-scene inspector="url: https://aframe.io/releases/0.5.0/aframe-inspector.min.js">
+        <a-assets>
+            <a-mixin id="text" color="white" text="align: center; width: 4"></a-mixin>
+            <a-mixin id="over" color="white" text="align: left; width: 4"></a-mixin>
+            <img id="meteor" src="./assets/Meteor.jpg"/>
+        </a-assets>
+
+        <a-sky color="#00001a">
+
+        </a-sky>
+
+        <a-camera>
+            <a-text mixin="text" id="score" position="-1.5 2 -3" wrap-count="40"></a-text>
+            <a-text mixin="text" id="level" position="1.5 2 -3" wrap-count="40"></a-text>
+            <a-cursor
+                    color="red"
+
+                    opacity="0.4"
+            ></a-cursor>
+        </a-camera>
+    </a-scene>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

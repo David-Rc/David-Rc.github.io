@@ -363,4 +363,3 @@ function enter(event)
        answerUser();
    }
 }
-

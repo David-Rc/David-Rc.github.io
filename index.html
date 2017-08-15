@@ -1,17 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Saibot</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    </head>
-    <body onload="init()">
-        <h1 class="center">The Sydo-Bot Demo</h1>
-        <div class="center" id="chatZone">
-            <div id="field"></div>
-            <input id="userSay" type="text" onkeypress="enter(event)" placeholder="message here"/><button  onclick="answerUser()">Send</button>
-        </div>
-        <script type="text/javascript" src="script.js"></script>*
-        <script type="text/javascript" src="server.js"></script>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Collone</title>
+      <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="header">
+      <ul id="nav">
+        <li><h3>David RICHARD</h3></li>
+      </ul>
+    </div>
+      <div id="container">
+      <h1>Demo<span> et code source</span></h1>
+      <hr></hr>
+      <div class="box"><img src="Assets/demoBot.png" alt="Screenshot-demoBot"/></div>
+      <div class="text">
+        <h2>Demo-Bot</h2>
+        <h3>From scratch</h3>
+        <p>Prototype d'un bot pour "Dessine moi l'éco", codé intégralement en Javascript(es5) et HTML5 avec l'utilisation d'AJAX et de fichier JSON pour adapter les réponses aux saisies de l'utilisateur.</p>
+        <div class="button"><a href="./Demo-bot/">Demo</a></div>
+        <div class="button"><a href="#">Code Source</a></div>  
+      </div>
+      <hr></hr>
+      <div class="box">
+        <img src="Assets/botFrame.png" alt="Screenshot-botFrame"/>
+      </div>
+      <div class="text">
+        <h2>BotFramework</h2>
+        <h3><a href="https://dev.botframework.com/">Microsoft Bot Framework</a></h3>
+        <p>Prototype de bot pour "Dessine moi l'éco" développé avec Microsoft Bot-Framework et codé intégralement en NodeJS</p>
+        <div class="button"><a href="./botFramework/">Demo</a></div>
+        <div class="button"><a href="#">Code source</a></div>  
+      </div>
+      <hr></hr>
+      <div class="box">
+          <img src="Assets/appVR.png" alt="Screenshot-AppVr"/>
+     </div>
+      <div class="text">
+        <h2>Mini-jeu VR</h2>
+        <h3><a href="https://aframe.io/">Aframe</a></h3>
+          <p>Mini jeu web en phase beta. Développé en réalité virtuel avec Aframe. Le but est de viser les métorites avant qu'elles se raproches trop.
+              <ul style="list-style: none">
+                <li>- Generation aléatoire des métorites</li>
+                <li>- Generation procédurale des étoiles en fond</li>
+                <li>- Compatible Google Cardboard</li>
+              </ul>
+          </p>
+        <div class="button"><a href="./AppVr/">Demo</a></div>
+        <div class="button"><a href="#">Code source</a></div>
+        <p>
+            /!\ Pour quitter la démo utiliser la touche retour de votre clavier ou navigateur.  
+        </p>
+      </div>
+      <hr></hr>
+      <div class="box">
+        <img src="Assets/memo.png" alt="Screenshot-memo"/>    
+      </div>
+      <div class="text">
+        <h2>Memory</h2>
+        <h3>Javascript</h3>
+        <p>Mini jeu issu d'un défi donné par Simplon dans le but d'apprendre le javascript.</p>
+        <div class="button"><a href="https://plnkr.co/L1NsJcMdjCAmuBwAmJeO">Demo et Code</a></div>
+      </div>
+      <hr></hr>
+      <div class="box">
+          <img src="Assets/angular.png" alt="Screenshot-Angular"/>
+      </div>
+      <div class="text">
+        <h2>Test AngularJS</h2>
+        <h3><a href="https://angularjs.org"/>AngularJS</a></h3>
+        <p>Test proposé par le groupe Avantage pour testé mes compétences en AngularJS. L'objectif est d'afficher l'arboréscence d'un fichier JSON.</p>
+        <div class="button"><a href="https://plnkr.co/TswmomLnpfi4YHS0m55P">Demo et Code</a></div>
+      </div>
+        <hr></hr>
+    <div class="box">
+          <img src="Assets/todart.png" alt="Screenshot-Todart"/>
+      </div>
+      <div class="text">
+        <h2>Todart</h2>
+        <h3><a href="https://www.dartlang.org/">AngularDart</a></h3>
+        <p>Application de gestion de todo-list développé en AngularDart dans le but d'apprendre le language.
+           Il est possible de : 
+        </p>
+          <ul style="list-style:none">
+            <li>- Ajouter une tâche</li>
+            <li>- Renommer une tâche</li>
+            <li>- Voir le détail d'une tâche</li>
+            <li>- Supprimer une tâche</li>
+            <li>- Supprimer plusieurs tâches</li>  
+        </ul>  
+        <div class="button"><a href="https://github.com/David-Rc/Todart">Code Source</a></div>
+      </div>
+        <hr></hr>    
+    </div>
+  </body>
 </html>

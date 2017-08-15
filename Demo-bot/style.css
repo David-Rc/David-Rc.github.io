@@ -1,18 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-body {
-    font-family: Geneva, Arial, sans-serif;
-    background-color: #00838F
-}
-.trans_liquid
+ns_liquid
 {
     transition: all 700ms cubic-bezier(0.525, -0.580, 0.790, 1.420);
 }
